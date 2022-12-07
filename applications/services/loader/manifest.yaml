@@ -1,0 +1,10 @@
+id: loader
+name: Loader
+entrypoint: loader_svc
+type: SERVICE
+stack: 1024
+sources:
+  - loader.c
+cstr_exports:
+  - LOADER_SVC
+order: 1

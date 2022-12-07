@@ -1,0 +1,9 @@
+id: storage
+name: Storage
+entrypoint: storage_svc
+type: SERVICE
+stack: 8192
+sources:
+  - storage.c
+cstr_exports:
+  - STORAGE_SVC

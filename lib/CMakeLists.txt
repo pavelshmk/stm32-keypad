@@ -1,0 +1,13 @@
+add_subdirectory(STM32F4xx_HAL_Driver)
+add_subdirectory(CMSIS5)
+add_subdirectory(CMSIS-FreeRTOS)
+
+add_subdirectory(m-lib)
+add_subdirectory(ringbuffer)
+add_subdirectory(tinyusb)
+add_subdirectory(UGUI)
+add_subdirectory(FatFs)
+add_subdirectory(jsmn)
+add_subdirectory(tiny-json)
+add_subdirectory(cwalk)
+add_subdirectory(tomlc99)

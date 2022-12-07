@@ -1,0 +1,10 @@
+id: input
+name: Input
+entrypoint: input_svc
+type: SERVICE
+stack: 1024
+sources:
+  - input.c
+cstr_exports:
+  - INPUT_PUBSUB
+order: 0

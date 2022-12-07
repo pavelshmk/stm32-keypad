@@ -1,0 +1,9 @@
+id: backlight
+name: Backlight
+entrypoint: backlight_svc
+type: SERVICE
+stack: 4096
+sources:
+  - backlight.c
+cstr_exports:
+  - BACKLIGHT_SVC

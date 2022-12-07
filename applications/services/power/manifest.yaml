@@ -1,0 +1,9 @@
+id: power
+name: Power
+entrypoint: power_svc
+type: SERVICE
+stack: 256
+sources:
+  - power.c
+cstr_exports:
+  - POWER_SVC

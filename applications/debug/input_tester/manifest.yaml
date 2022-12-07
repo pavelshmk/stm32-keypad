@@ -1,0 +1,7 @@
+id: input_tester
+name: Input Tester
+entrypoint: input_tester_app
+type: APPLICATION
+stack: 4096
+sources:
+  - input_tester.cpp

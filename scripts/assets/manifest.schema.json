@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "entrypoint": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": ["APPLICATION", "SERVICE"]
+    },
+    "stack": { "type": "number" },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "cstr_exports": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "order": { "type": "number" }
+  },
+  "required": ["id", "name", "entrypoint", "type", "stack", "sources"]
+}

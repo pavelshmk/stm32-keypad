@@ -1,0 +1,9 @@
+id: desktop
+name: Desktop
+entrypoint: desktop_svc
+type: SERVICE
+stack: 512
+sources:
+  - desktop.c
+cstr_exports:
+  - DESKTOP_SVC

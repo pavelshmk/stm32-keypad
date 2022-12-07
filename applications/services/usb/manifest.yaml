@@ -1,0 +1,11 @@
+id: usb
+name: USB
+entrypoint: usb_svc
+type: SERVICE
+stack: 1024
+sources:
+  - usb.c
+  - msc_disk.c
+  - usb_hid.c
+cstr_exports:
+  - USB_SVC

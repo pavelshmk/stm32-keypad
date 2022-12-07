@@ -1,0 +1,20 @@
+set(APPLICATIONS_SOURCES
+    services/input/input.c
+    services/loader/loader.c
+    services/gui/gui.c
+    services/gui/canvas.c
+    services/gui/canvas_u8g2_font.c
+    services/gui/menu.c
+    services/gui/u8g2_fonts.c
+    services/gui/viewport.c
+    services/power/power.c
+    services/desktop/desktop.c
+    services/backlight/backlight.c
+    services/storage/storage.c
+    services/usb/usb.c
+    services/usb/msc_disk.c
+    services/usb/usb_hid.c
+    services/hid/hid.c
+    debug/input_tester/input_tester.cpp
+    debug/msd/msd.c
+)

@@ -1,0 +1,5 @@
+add_library(hal INTERFACE)
+file(GLOB src ${CMAKE_CURRENT_LIST_DIR}/Src/*.c)
+list(FILTER src EXCLUDE REGEX ".*template.*")
+target_sources(hal INTERFACE ${src})
+target_include_directories(hal INTERFACE ${CMAKE_CURRENT_LIST_DIR}/Inc)

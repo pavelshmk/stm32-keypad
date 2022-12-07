@@ -1,0 +1,7 @@
+id: msd
+name: MSD
+entrypoint: msd_app
+type: APPLICATION
+stack: 0x4000
+sources:
+  - msd.c

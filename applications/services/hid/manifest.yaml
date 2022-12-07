@@ -1,0 +1,9 @@
+id: hid
+name: HID
+entrypoint: hid_svc
+type: SERVICE
+stack: 1024
+sources:
+  - hid.c
+cstr_exports:
+  - HID_SVC
